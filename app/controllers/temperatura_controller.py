@@ -30,4 +30,5 @@ def obtener_datos():
 
     datos = [{"id": r[0], "valor": r[1]} for r in rows]
 
-    return {"datos": datos, "alumno" : "Aliaga"}
+    return {"datos": datos, "user_name" : "edu@usmp.pe"}
+    return {"datos": datos, "password" : "charmander01"}
